@@ -62,16 +62,6 @@ function atualizaEstatistica(peca) {
     })
 }
 
-//robotron.addEventListener("click", () => { // pode-se colocar , function() ou () => nas versoes mais atuais do js
-//    console.log("Cliquei no robô")
-//})
-
-//    function dizOi() {
-//       console.log("Oi")
-//        console.log("Bem vindo ao Robotron 2000")
-//    }
-
-//    dizOi()
-//somar.addEventListener("click", () => {manipulaDados("somar")})
-
-//subtrair.addEventListener("click", () => {manipulaDados("subtrair")})
+function trocaImagem(cor){
+    document.querySelector(".robo").src="img/Robotron 2000 - " + cor + ".png";
+ }

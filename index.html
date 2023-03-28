@@ -12,14 +12,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet"> 
 </head>
+<header>
+    <section class="robotron">
+        <section class="botoes">
+            <button class="alterar" alterar onclick="trocaImagem('Azul')">Robotron Azul</button>
+            <button class="alterar" alterar onclick="trocaImagem('Amarelo')">Robotron Amarelo</button>
+            <button class="alterar" alterar onclick="trocaImagem('Branco')">Robotron Branco</button>
+            <button class="alterar" alterar onclick="trocaImagem('Preto')">Robotron Preto</button>
+            <button class="alterar" alterar onclick="trocaImagem('Rosa')">Robotron Rosa</button>
+            <button class="alterar" alterar onclick="trocaImagem('Vermelho')">Robotron Vermelho</button>
+        </section>
+    </section>
+</header>
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="img/robotron.png" alt="Robotron" id="robotron">
+            <img class="robo" src="img/Robotron 2000 - Azul.png" alt="Robotron" id="robotron">
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
-
-        <section class="box estatisticas">
+     <section class="box estatisticas">
             <div class="estatistica">
                 <p class="estatistica-titulo">Força</p>
                 <div class="estatistica-valor">
@@ -97,6 +108,7 @@
                 <input type="submit" value="Iniciar produção" class="producao" id="producao">
             </form>
         </section>
+       </section>
     </main>
 
     <script src='js/main.js'></script>
